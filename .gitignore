@@ -1,0 +1,22 @@
+# Documentation files - exclude ALL .md files except README.md
+*.md
+!README.md
+
+# Build files
+*.exe
+*.o
+*.obj
+main
+
+# IDE files
+.vscode/
+.vs/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files
+output.txt
